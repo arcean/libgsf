@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/office/!svn/ver/278/src/tags/gsf/week402009/debian
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/office/!svn/ver/278/src/tags/gsf/week402009/debian/control
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/office/!svn/ver/257/src/tags/gsf/week402009/debian/Makefile.in
+END
+compat
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/office/!svn/ver/257/src/tags/gsf/week402009/debian/compat
+END
+libgsf-1-dev.install
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/office/!svn/ver/257/src/tags/gsf/week402009/debian/libgsf-1-dev.install
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/office/!svn/ver/277/src/tags/gsf/week402009/debian/changelog
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/office/!svn/ver/257/src/tags/gsf/week402009/debian/copyright
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/office/!svn/ver/257/src/tags/gsf/week402009/debian/Makefile.am
+END
+libgsf-1.install
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/office/!svn/ver/257/src/tags/gsf/week402009/debian/libgsf-1.install
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/office/!svn/ver/257/src/tags/gsf/week402009/debian/rules
+END

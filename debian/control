@@ -1,0 +1,29 @@
+Source: libgsf
+Section: libs
+Priority: optional
+Maintainer: Tomasz Pieniazek <t.pieniazek@gazeta.pl>
+Build-Depends: debhelper (>= 5.0.37.2), libglib2.0-dev (>= 2.6.0), zlib1g-dev (>= 1.2.3), libxml2-dev (>= 2.6.10)
+Standards-Version: 3.6.1
+
+Package: libgsf-1-dev
+Section: libdevel
+Architecture: any
+Depends: libgsf-1 (= ${Source-Version}), libglib2.0-dev (>= 2.6.0), zlib1g-dev (>= 1.2.3), libxml2-dev (>= 2.6.10)
+Recommends: pkg-config
+Description: GSF library.
+ The GNOME Structured File Library (GSF) is an I/O abstraction for reading/writing compound files. 
+
+Package: libgsf-1
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: GSF library.
+ The GNOME Structured File Library (GSF) is an I/O abstraction for reading/writing compound files. 
+
+Package: libgsf-1-dbg
+Section: misc
+Priority: extra
+Architecture: any
+Depends: libgsf-1 (= ${binary:Version})
+Description: GSF library.
+ The GNOME Structured File Library (GSF) is an I/O abstraction for reading/writing compound files. 

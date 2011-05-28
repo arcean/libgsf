@@ -1,0 +1,74 @@
+libgsf (1.14.11-1) unstable; urgency=low
+
+  * Update to new version.
+
+ -- Jos Van <jos.van.den.oever@kogmbh.com>  Mon, 10 Aug 2009 16:35:07 +0200
+
+libgsf (1.11.10.4-3+0m5) unstable; urgency=high
+
+  * This entry has been added by BIFH queue processor
+    Suffix +0m5 added to package revision
+
+ -- Kojo Aapo <aapo.kojo@nokia.com>  Tue, 26 May 2009 11:22:25 +0300
+
+libgsf (1.11.10.4-3) unstable; urgency=high
+
+  * Fixes: NB#118377, Add debug package
+
+ -- Richard Hult <richard@foobar.com>  Mon, 25 May 2009 11:01:00 +0200
+
+libgsf (1.11.10.4-2) unstable; urgency=high
+
+  * No code change in this version, just bump the version to get rebuilt
+  * Remove forbidden emails
+  * Fixes: NB#94855 libgsf-1 shall be refreshed
+
+ -- Richard Hult <richard@foobar.com>  Tue,  9 Dec 2008 14:14:00 +0100
+
+libgsf (1.11.10.4-1) unstable; urgency=high
+
+  * Make the zip output more memory efficient.
+
+ -- Richard Hult <richard@foobar.com>  Thu, 22 Aug 2005 09:12:19 +0200
+
+libgsf (1.11.10.3-1) unstable; urgency=high
+
+  * Merge upstream fixes and add contact information to the AUTHORS file.
+
+ -- Richard Hult <richard@foobar.com>  Thu,  9 Jun 2005 12:21:47 +0200
+
+libgsf (1.11.10.2-1) unstable; urgency=high
+
+  * Add information to the ChangeLog about the changes.
+
+ -- Richard Hult <richard@foobar.com>  Thu, 23 May 2005 18:10:56 +0200
+
+libgsf (1.11.10.1-1) unstable; urgency=high
+
+  * Merge in changes from upstream.
+  * Fix leak in input.
+  * Clean out unused parts of configure.in and Makefile.am.
+  * Add extra version number to indicate our patch level.
+  * Install docs.
+
+ -- Richard Hult <richard@foobar.com>  Thu, 17 Mar 2005 18:09:11 +0100
+
+libgsf (1.10.2-3) unstable; urgency=high
+
+  * Made rules executable, NOKBAK-40.
+
+ -- Richard Hult <richard@foobar.com>  Tue, 16 Dec 2004 14:33:21 +0100
+
+libgsf (1.10.2-2) unstable; urgency=high
+
+  * Updated README to mention that this is a modified version of libgsf.
+    Removed left-over h-files that are not used (for msole and msvba).
+
+ -- Richard Hult <richard@foobar.com>  Tue, 16 Dec 2004 14:33:21 +0100
+
+libgsf (1.10.2-1) unstable; urgency=high
+
+  * Patched and stripped down version of upstream libgsf that adds a small
+    API to access timestamp and mode on files.
+
+ -- Richard Hult <richard@foobar.com>  Tue, 26 Oct 2004 17:23:43 +0200
