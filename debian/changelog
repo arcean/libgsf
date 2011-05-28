@@ -1,3 +1,9 @@
+libgsf (1.14.21-1) unstable; urgency=low
+
+  * Updated to 1.14.21
+
+ -- Tomasz Pieniazek <t.pieniazek@gazeta.pl>  Sat, 28 May 2011 14:47:20 +0200
+
 libgsf (1.14.20-1) unstable; urgency=low
 
   * Updated to 1.14.20

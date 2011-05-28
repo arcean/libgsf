@@ -1,3 +1,45 @@
+2011-05-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.14.21
+
+2011-05-10  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* gsf/gsf-opendoc-utils.c (get_gsf_odf_version_string): bump to 1.2
+	(get_gsf_odf_version): bump to 1.2
+
+2011-05-09  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* gsf/gsf-opendoc-utils.c (od_meta_user_defined): check for all ODF defined
+	value types and use the correct attribute name
+	(meta_write_props): use the correct attribute name
+
+2011-05-09  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* gsf/gsf-opendoc-utils.c (od_meta_user_defined): initialize type
+	and name.
+
+2011-05-02  Jean Brefort  <jean.brefort@normalesup.org>
+
+	* gsf/gsf-impl-utils.h: fix GSF_DYNAMIC_CLASS_FULL to make gcc-4.6 happy.
+
+2011-04-05  Morten Welinder  <terra@gnome.org>
+
+	* Makefile.am: ${ACLOCAL_FLAGS}, not $(ACLOCAL_FLAGS) which seems
+	to matter to Gentoo.  Fixes #645777.
+
+2011-03-28  Morten Welinder  <terra@gnome.org>
+
+	* configure.in: Implement --without-gconf (as opposed to looking
+	for gconftool-2.
+
+2011-03-24  Morten Welinder <terra@gnome.org>
+
+	* Release 1.14.20
+
+2011-03-24  Morten Welinder <terra@gnome.org>
+
+	* configure.in: Post-release bump.
+
 2011-03-11  Morten Welinder  <terra@gnome.org>
 
 	* gsf/gsf-opendoc-utils.c (od_meta_user_defined_end): Create a
